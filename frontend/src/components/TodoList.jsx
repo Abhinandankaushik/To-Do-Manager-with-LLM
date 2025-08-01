@@ -59,7 +59,7 @@ function TodoList({ todos, setTodos }) {
         </button>
       </div>
       <ul className="space-y-3">
-        {todos.map(todo => (
+        {todos?.map(todo => (
           <li
             key={todo.id}
             className="flex justify-between items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-all duration-200"

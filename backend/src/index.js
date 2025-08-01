@@ -13,7 +13,7 @@ dotenv.config();
 const app = express();
 const port = 5000;
 
-app.use(cors({ origin:  process.env.CORS_ORIGIN || '*' }));
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
