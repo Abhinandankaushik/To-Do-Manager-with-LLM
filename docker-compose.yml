@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    # Uncomment the following lines to enable persistent storage 
+    # volumes:
+    #   - ./mongo-data:/data/db
