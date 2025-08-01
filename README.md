@@ -23,7 +23,7 @@ A modern web application for managing to-do tasks with a feature to ask question
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/todo-manager-gemini.git
+   git clone https://github.com/Abhinandankaushik/To-Do-Manager-with-LLM.git
    cd todo-manager-gemini
    ```
 
