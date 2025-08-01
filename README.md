@@ -24,7 +24,7 @@ A modern web application for managing to-do tasks with a feature to ask question
 
    ```bash
    git clone https://github.com/Abhinandankaushik/To-Do-Manager-with-LLM.git
-   cd todo-manager-gemini
+   cd To-Do-Manager-with-LLM
    ```
 
 2. **MongoDB Setup with Docker**
