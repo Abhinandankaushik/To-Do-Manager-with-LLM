@@ -11,9 +11,9 @@ import askAi from './controllers/askAi.js';
 dotenv.config();
 
 const app = express();
-const port = 8000;
+const port = 5000;
 
-app.use(cors({ origin:  '*' }));
+app.use(cors({ origin:  process.env.CORS_ORIGIN || '*' }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
